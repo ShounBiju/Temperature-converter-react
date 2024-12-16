@@ -12,7 +12,6 @@ A simple and intuitive web application built with React to convert temperatures 
 - **Multiple Units**: Supports conversion between:
   - Celsius
   - Fahrenheit
-  - Kelvin
 - **Clear Input**: A clear button to reset the input field and conversion result.
 - **Responsive Design**: Optimized for all screen sizes, including mobile devices.
 - **Lightweight**: Built using React and deployed with Netlify for fast performance.
