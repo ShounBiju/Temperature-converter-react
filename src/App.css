@@ -1,0 +1,108 @@
+/* App.css */
+
+/* Add a gradient background for hot and cold colors */
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #00c3ff,#e4ff4dae, #ff3700); /* Cold to hot gradient */
+  background-size: 400% 400%;
+  animation: gradient-animation 15s ease infinite;
+}
+
+/* Gradient animation */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.088);
+}
+
+/* Style for the input section */
+.input-section {
+  background: rgba(255, 255, 255, 0.076);
+  padding: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.136);
+  display: inline-block;
+}
+
+/* Input field styling */
+.input-section input {
+  width: 200px;
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.input-section input:focus {
+  transform: scale(1.05);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.input-section select {
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+
+.clear-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ffffff32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.clear-button:hover {
+  background-color: #ffffff43;
+}
+
+
+/* Result styling */
+.result {
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.088);
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.result h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.182);
+}
