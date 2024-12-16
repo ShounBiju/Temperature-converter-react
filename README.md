@@ -1,6 +1,6 @@
 # Temperature Converter React App
 
-A simple and intuitive web application built with React to convert temperatures between Celsius, Fahrenheit, and Kelvin. The app automatically converts the input temperature based on the selected scales and provides a user-friendly experience.
+A simple and intuitive web application built with React to convert temperatures between Celsius, and  Fahrenheit. The app automatically converts the input temperature based on the selected scales and provides a user-friendly experience.
 
 🌐 **Live Demo**: [Temperature Converter App](https://temperature-app-react.netlify.app/)
 
